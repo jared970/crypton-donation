@@ -23,7 +23,7 @@
           <p><?php
             echo wordwrap($address, 16, '<br/>', true);
           ?></p>
-          <button class="uk-button uk-button-default uk-display-block uk-width-medium uk-text-center btn-copy" style="margin: auto;" data-clipboard-text="<?php echo $address; ?>" onclick="copied();">copy</button>
+          <button class="uk-button uk-button-default uk-display-block uk-width-medium uk-text-center uk-border-rounded btn-copy" style="margin: auto;" data-clipboard-text="<?php echo $address; ?>" onclick="copied();">copy</button>
         </div>
 
         <br/>
