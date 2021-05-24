@@ -9,3 +9,17 @@ body {
     border-radius: 18px;
     box-shadow: 0 14px 25px rgba(232, 232, 232, 0.24);
 }
+
+.link-high {
+    display: inline-block;
+    background-color: #7d26ac;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-bottom: 2px solid #9eff96;
+}
+
+.link-high:hover {
+    background-color: #842ab5;
+    text-decoration: none;
+}

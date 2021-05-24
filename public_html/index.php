@@ -15,8 +15,8 @@
         <div class="uk-width-medium" style="margin: 15px auto;">
           <form class="uk-form-large uk-padding-small" method="GET" action="GET">
             <div class="uk-margin">
-              <input class="uk-input uk-display-block" type="text" placeholder="Crypton address..." name="address" />
-              <button class="uk-button uk-button-primary uk-display-block uk-width-1-1 uk-text-center">Create</button>
+              <input class="uk-input uk-display-block" type="text" placeholder="Crypton address..." name="address" style="border-radius: 5px 5px 0 0;" />
+              <button class="uk-button uk-button-primary uk-display-block uk-width-1-1 uk-text-center" style="border-radius: 0 0 5px 5px;">Create</button>
             </div>
           </form>
         </div>
