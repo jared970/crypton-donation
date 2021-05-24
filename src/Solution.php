@@ -48,4 +48,10 @@
             }
             return 'https://crypton.life/CRP/' . $this->addressEncode($address);
         }
+
+        public function parseDataForQR(): string {
+            $addressShort = self::dataFilter($_GET['address']);
+            $address = $this->addressDecode($addressShort);
+            return $address;
+        }
     }

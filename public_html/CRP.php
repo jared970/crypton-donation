@@ -9,14 +9,21 @@
       <div class="uk-text-center">
         <img src="/img/logo.svg" style="width: 128px;" />
         <div class="uk-container">
-          <h2>Help this user develop their projects</h2>
+          <h2>Help this user<br/>develop their projects</h2>
           <span>Send him <a href="https://cryptoncoin.cash">Crypton</a> =)</span>
         </div>
 
-        <div class="uk-width-medium" style="margin: 15px auto;">
-          <p>QR code</p>
-          <p>address</p>
-          <button class="uk-button uk-button-primary uk-display-block uk-width-1-1 uk-text-center">copy</button>
+        <div class="uk-width-xlarge" style="margin: 15px auto;">
+          <div>
+          <?php
+            $address = $app->parseDataForQR();
+            echo '<img class="crpQR" src="'.(new \chillerlan\QRCode\QRCode)->render($address).'" alt="QR Code" />';
+          ?>
+          </div>
+          <p><?php
+            echo wordwrap($address, 16, '<br/>', true);
+          ?></p>
+          <button class="uk-button uk-button-default uk-display-block uk-width-medium uk-text-center btn-copy" style="margin: auto;" data-clipboard-text="<?php echo $address; ?>">copy</button>
         </div>
 
         <br/>

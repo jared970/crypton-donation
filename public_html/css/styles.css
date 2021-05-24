@@ -3,3 +3,9 @@ body {
     background: linear-gradient(180deg, rgba(112,34,167,1) 40%, rgba(167,54,189,1) 100%);
     min-height: 100vh;
 }
+
+.crpQR {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 14px 25px rgba(232, 232, 232, 0.24);
+}
