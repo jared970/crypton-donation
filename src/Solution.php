@@ -46,6 +46,6 @@
             if(! self::verifyHEXstr($address)) {
                 return "invalid address given";
             }
-            return $this->addressEncode($address);
+            return 'https://crypton.life/CRP/' . $this->addressEncode($address);
         }
     }
