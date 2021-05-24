@@ -209,16 +209,16 @@
         },
         {
             "name": "jared970/crypton-shortener",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jared970/crypton-address-shortener.git",
-                "reference": "b29c3a6d991117fb29bf196ce38b54c168547307"
+                "reference": "0a113ae8ea8b199518a76db84b1969c8a8450929"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jared970/crypton-address-shortener/zipball/b29c3a6d991117fb29bf196ce38b54c168547307",
-                "reference": "b29c3a6d991117fb29bf196ce38b54c168547307",
+                "url": "https://api.github.com/repos/jared970/crypton-address-shortener/zipball/0a113ae8ea8b199518a76db84b1969c8a8450929",
+                "reference": "0a113ae8ea8b199518a76db84b1969c8a8450929",
                 "shasum": ""
             },
             "require": {
@@ -248,9 +248,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jared970/crypton-address-shortener/issues",
-                "source": "https://github.com/jared970/crypton-address-shortener/tree/1.0.1"
+                "source": "https://github.com/jared970/crypton-address-shortener/tree/1.0.2"
             },
-            "time": "2021-05-24T14:00:46+00:00"
+            "time": "2021-05-24T22:35:55+00:00"
         },
         {
             "name": "psr/http-message",
