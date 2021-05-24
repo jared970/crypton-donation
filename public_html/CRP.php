@@ -7,7 +7,7 @@
   <body>
     <div class="uk-padding uk-text-lead uk-light">
       <div class="uk-text-center">
-        <img src="img/logo.svg" style="width: 128px;" />
+        <img src="/img/logo.svg" style="width: 128px;" />
         <div class="uk-container">
           <h2>Help this user develop their projects</h2>
           <span>Send him <a href="https://cryptoncoin.cash">Crypton</a> =)</span>

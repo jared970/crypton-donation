@@ -18,5 +18,5 @@
 
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="css/styles.css?v=<?php echo getenv('version'); ?>" />
+    <link rel="stylesheet" href="/css/styles.css?v=<?php echo getenv('version'); ?>" />
 </head>

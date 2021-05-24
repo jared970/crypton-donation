@@ -7,7 +7,7 @@
   <body>
     <div class="uk-padding uk-text-lead uk-light">
       <div class="uk-text-center">
-        <img src="img/logo.svg" style="width: 128px; height: 128px;" />
+        <img src="/img/logo.svg" style="width: 128px; height: 128px;" />
         <div class="uk-container">
           <h2>Create your donation link<br/>in Crypton</h2>
         </div>
