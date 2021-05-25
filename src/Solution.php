@@ -39,9 +39,13 @@
 		}
 
         public function parseLink(): string {
+            $emptyErr = "empty address given";
+            if(!isset($_GET['address'])) {
+                return $emptyErr;
+            }
             $address = self::dataFilter($_GET['address']);
             if($address == '') {
-                return "empty address given";
+                return $emptyErr;
             }
             if(! self::verifyHEXstr($address)) {
                 return "invalid address given";
@@ -50,6 +54,9 @@
         }
 
         public function parseDataForQR(): string {
+            if(!isset($_GET['address'])) {
+                return '';
+            }
             $addressShort = self::dataFilter($_GET['address']);
             $address = $this->addressDecode($addressShort);
             return $address;
